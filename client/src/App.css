@@ -1,0 +1,183 @@
+.App {
+  text-align: center;
+}
+body{
+  background: #f8f9fa;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+/* Navigation ul and logo style */
+ul li{
+  padding: 5px;
+font-weight: bold;
+}
+.mainlogo{
+  width:40px;
+  margin-right: 10px;
+}
+.navbar-brand{
+  color:#236B8E !important;
+font-weight: bold;
+}
+/* For container */
+.formContainer{
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  background: white;
+  margin: auto;
+  margin-top: 40px;
+  width:80%;
+box-sizing: border-box;
+box-shadow: 4px 6px 16px 2px rgba(0, 0, 0, 0.2), 4px 8px 20px 3px rgba(0, 0, 0, 0.21);
+padding-bottom: 10px;
+margin-bottom: 30px;
+}
+/* for form  */
+.input-container {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  width: 130%;
+  padding:10px;
+  margin:30px;
+  border:none;
+border-bottom: 2px solid black;
+}
+
+.form-control1::placeholder,.form-control::placeholder{
+  text-decoration: bold;
+   font-size: 20px; 
+}
+#floatingTextarea{
+  height: 150px;
+}
+/* for illustrations */
+.illustration{
+  width:400px;
+}
+i{
+  font-size:30px;
+  margin-right: 10px;
+}
+/* #resume_i_tag{
+  font-size: 18px;
+  margin-right: 5px;
+} */
+.formContainer .form-control1{
+ border:none;
+}
+ul{
+  list-style-type: none;
+}
+.form-control1:focus {
+  outline: none;
+}
+
+/* for form button */
+.btn{
+  background-color: #63B8FF;
+  /* opacity: 0.9; */
+  color: white;
+  border: none;
+  cursor: pointer;
+width: 180px;
+padding: 15px;
+  margin:30px;
+}
+.card{
+  border:none;
+}
+
+@media only screen and (max-width: 1040px){
+  .input-container{
+    width: 105%;
+  }
+  .formContainer{
+    margin-top:70px;
+    padding-top: 20px;
+  }
+  
+}
+
+  @media only screen and (max-width: 850px){
+    .input-container{
+      width: 85%;
+      margin: 10px;
+      padding-right:5px;
+    }
+    .formContainer{
+       width: 90%; 
+      display: block;
+      margin: auto;
+      margin-top: 70px;
+    }
+    .illustration{
+      width: 300px;
+    }
+    .btn{
+      margin-left: 10px;
+    }
+    .input-container{
+width: 90%;
+    }
+    
+    .form{
+      margin-left:35px !important;
+    }
+     
+}
+@media only screen and (max-width: 300px){
+  .formContainer{
+    width: 95%; 
+    margin-top:50px
+ }
+ .illustration{
+  width: 200px;
+}
+.form-control{
+  width: 180px;
+}
+.btn{
+  width: 140px;
+  margin-left: 10px;
+}
+.input-container{
+  width: 97%;
+      }
+      i{
+        font-size:24px;
+      }  
+     
+      
+      
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

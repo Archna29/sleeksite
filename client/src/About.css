@@ -1,0 +1,62 @@
+
+
+/* For About page Card */
+  #card{
+    width:60%;
+  }
+  #card-body{
+    width: 100%;
+  }
+  .AboutContainer{
+    /* display: -ms-flexbox;
+    display: flex; */
+    background: white;
+    margin: auto;
+    margin-top: 40px;
+    width:60%;
+  box-sizing: border-box;
+  box-shadow: 4px 6px 16px 2px rgba(0, 0, 0, 0.2), 4px 8px 20px 3px rgba(0, 0, 0, 0.21);
+  padding-bottom: 10px;
+  margin-bottom: 30px;
+  }
+  .list-group-item {
+    border:none;
+  }
+  @media only screen and (max-width: 1040px){
+  #card{
+    width:70%;
+  }
+  .AboutContainer{
+    margin-top:70px;
+    padding-top: 20px;
+  }
+}
+@media only screen and (max-width: 850px){
+   
+      #card{
+        width: 95%;
+      }
+      #card-body{
+        width:110%;
+      }  
+      .AboutContainer{
+        width: 90%; 
+        display: block;
+        margin: auto;
+        margin-top: 70px;
+      }
+
+}
+@media only screen and (max-width: 300px){
+
+    #card{
+        width:98%;
+      }
+      #card-body{
+        width:110%;
+      }
+      .AboutContainer{
+        width: 95%; 
+        margin-top:50px
+      }
+}
