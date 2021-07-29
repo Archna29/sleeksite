@@ -10,9 +10,7 @@ const User = require('../models/userSchema');
 router.get("/",(req,res)=>{
     res.send("hello from home");
 });
-// router.get('/about',(req,res)=>{
-//     res.send("this is about page");
-// })
+
 router.get('/register',(req,res)=>{
     res.send("this is register page");
 })
@@ -91,7 +89,7 @@ router.get('/about',authenticate,(req,res)=>{
     res.send(req.rootUser);
 });
 
-//data for home and contact page extracted from database
+//data for home page extracted from database
 router.get('/getData',authenticate,(req,res)=>{
     res.send(req.rootUser);
 });
